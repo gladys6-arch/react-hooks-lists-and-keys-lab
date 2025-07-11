@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav>
       {links.map((link)=>(
-        <a key={link} href={"#" + link.toLowerCase()}>{link}</a>
+        <a key={link} href={`#${link}`}>{link}</a>
       ))}
     </nav>
 
